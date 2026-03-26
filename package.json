@@ -1,0 +1,19 @@
+{
+  "name": "freelancer-invoice-generator",
+  "version": "1.0.0",
+  "description": "Freelancer invoice generator with client and server PDF support",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "private": true,
+  "dependencies": {
+    "jspdf": "^4.2.1",
+    "next": "^16.2.1",
+    "pdfkit": "^0.18.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}

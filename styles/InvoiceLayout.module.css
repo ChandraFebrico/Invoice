@@ -1,0 +1,104 @@
+.pageShell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+.hero {
+  margin-bottom: 28px;
+}
+
+.hero h1 {
+  margin: 0 0 8px;
+}
+
+.hero p {
+  max-width: 720px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.contentSection {
+  margin-top: 40px;
+}
+
+.contentSection h2 {
+  margin: 0 0 12px;
+}
+
+.contentSection p {
+  line-height: 1.7;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.featureCard,
+.faqList article {
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.featureCard h3,
+.faqList h3 {
+  margin: 0 0 8px;
+}
+
+.featureCard p,
+.faqList p {
+  margin: 0;
+}
+
+.faqList {
+  display: grid;
+  gap: 12px;
+}
+
+.legalSection {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  background: #f8fafc;
+}
+
+.legalSection p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.legalLinks {
+  display: flex;
+  gap: 16px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.legalLinks a {
+  color: #0f766e;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.legalLinks a:hover {
+  text-decoration: underline;
+}
+
+.dashboardHero {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .pageShell {
+    padding: 24px 16px 60px;
+  }
+
+  .featureGrid {
+    grid-template-columns: 1fr;
+  }
+}
